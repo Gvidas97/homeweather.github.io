@@ -1,0 +1,18 @@
+@import '../../../styles.scss';
+
+
+@media (min-width: 48em) {
+    section {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 62em) {
+    section {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}

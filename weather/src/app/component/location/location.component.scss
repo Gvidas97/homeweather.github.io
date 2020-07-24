@@ -1,0 +1,30 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+p {
+    flex: 1;
+    font-size: 15px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.iconw, h2, h1{
+    text-align: center;
+    flex: 1;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}

@@ -1,0 +1,56 @@
+@import '../../../styles.scss';
+form {
+    padding: 0.25em;
+    margin: 1em 0em;
+}
+
+
+input{
+    display: block;
+    margin: 0.75em auto;
+    text-align: center;
+}
+
+input[type=text] {
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 1.6em;
+    border: 0px;
+    text-align: center;
+    outline: none;
+}
+
+input[type=submit] {
+    -webkit-font-smoothing: antialiased;
+    background-color: $dark-blue;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    user-select: none;
+    letter-spacing: 1px;
+    color: white;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-out;
+    text-align: center;
+
+    &:hover {
+        background-color: $action-color;
+        color: #fff;
+      }
+      
+      &:active {
+        transform: scale(0.95);
+      }
+}
+
+span {
+    display: block;
+    padding: 1em;
+    text-align: center;
+}
+
+.warning {
+    color: $red;
+}
